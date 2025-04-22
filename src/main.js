@@ -1,4 +1,4 @@
-import { Start } from './scenes/Start.js';
+// import { Start } from './scenes/Start.js';
 
 // const config = {
 //     type: Phaser.AUTO,
@@ -29,10 +29,7 @@ var config = {
             debug: false
         }
     },
-    scene: [
-        Start
-    ],
+    scene: [window.Start],
 };
 
 new Phaser.Game(config);
-            
